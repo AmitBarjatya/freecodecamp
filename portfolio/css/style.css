@@ -1,5 +1,5 @@
 body {
-  background: lightgray;
+  background: white;
   padding: 0;
   margin:0px 0px 0px 0px;
 }
@@ -46,4 +46,10 @@ body {
 a {
   text-decoration: none;
   color: white;
+}
+
+.portfolio_image{
+  vertical-align:middle;
+  border-radius:10%;
+  margin:20px;
 }
