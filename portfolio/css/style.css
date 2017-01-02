@@ -48,8 +48,37 @@ a {
   color: white;
 }
 
+/*portfolio styles*/
+.portfolio_div_item{
+  display: table;
+  position: relative;
+}
+
+.portfolio_div_image{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.portfolio_div_content{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.portfolio_div_more{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 30px;
+}
+
+.portfolio_div_more a{
+  color: blue;
+}
+
 .portfolio_image{
   vertical-align:middle;
   border-radius:10%;
   margin:20px;
+  width: 150px;
+  height: 150px;
 }
